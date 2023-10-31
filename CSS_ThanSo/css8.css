@@ -1,0 +1,395 @@
+#report-cover {
+    order: 1;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-duongdoi {
+    order: 1;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-sumenh {
+    order: 2;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-noitam {
+    order: 3;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-noicam {
+    order: 4;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-tuongtac {
+    order: 5;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-thaido {
+    order: 6;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-ngaysinh {
+    order: 7;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-logic {
+    order: 8;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-camxuc {
+    order: 9;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-trucgiac {
+    order: 10;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-trainghiem {
+    order: 11;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-bosung {
+    order: 12;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-nttt {
+    order: 13;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-ddsm {
+    order: 14;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-canbang {
+    order: 15;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-truongthanh {
+    order: 16;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-namsinh {
+    order: 17;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-thangcanhan {
+    order: 18;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-dinhcao {
+    order: 19;
+    display: inherit;
+    flex-direction: column;
+}
+
+#report-thachthuc {
+    order: 20;
+    display: inherit;
+    flex-direction: column;
+}
+
+
+/* ANH NEN CHI SO */
+#report-cover .report-report-cover {
+    background: url(http://www.elle.vn/wp-content/uploads/2017/07/25/hinh-anh-dep-1.jpg);
+}
+
+#report-duongdoi .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_duongdoi-20221216073327-luss-.png);
+}
+
+#report-sumenh .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_sumenh-20221216073350-ma1e1.png);
+}
+
+#report-noitam .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_linhhon-20221216073328-dyzud.png);
+}
+
+#report-noicam .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_damme-20221216073327-chqp9.png);
+}
+
+#report-tuongtac .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_nhancach-20221216073350-pxyqi.png);
+}
+
+#report-thaido .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_thaido-20221216073350-apsw0.png);
+}
+
+#report-ngaysinh .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_ngaysinh-20221216073350-qui3l.png);
+}
+
+#report-logic .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_logic-20221216073327-pevj0.png);
+}
+
+#report-camxuc .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_camxuc-20221216073327-ioyxp.png);
+}
+
+#report-trucgiac .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_trucgiac-20221216073350-ygrpy.png);
+}
+
+#report-trainghiem .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_trainghiem-20221216073350-nsrgn.png);
+}
+
+#report-bosung .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_bosung-20221216073327-ovt1n.png);
+}
+
+#report-nttt .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_ketnoi2-20221216073327-wzdyi.png);
+}
+
+#report-ddsm .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_ketnoi1-20221216073327-dhch8.png);
+}
+
+#report-canbang .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_canbang-20221216073327-nzbac.png);
+}
+
+#report-truongthanh .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_truongthanh-20221216073350-zgeq3.png);
+}
+
+#report-namsinh .report-report-top {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/bg_nam-20221216073349-ewhlz.png);
+}
+
+#report-thangcanhan .report-report-top {
+    background: url(https://w.ladicdn.com/s250x250/5ebf76b51e398e6f1670261b/bg_thang-20221216073350-qfkjg.png);
+}
+
+#report-dinhcao .report-report-top {
+    background: url(https://w.ladicdn.com/s250x250/5ebf76b51e398e6f1670261b/bg_chang-20221216073327-apfnw.png);
+}
+
+#report-thachthuc .report-report-top {
+    background: url(https://w.ladicdn.com/s250x250/5ebf76b51e398e6f1670261b/thachthuc-20221223093620-zinoe.jpg);
+}
+
+
+/* TEN CHI SO */
+#report_duongdoi_label::before {
+    content: "Đường đời";
+}
+
+#report_sumenh_label::before {
+    content: "Sứ mệnh";
+}
+
+#report_noitam_label::before {
+    content: "Linh hồn";
+}
+
+#report_noicam_label::before {
+    content: "Đam Mê";
+}
+
+#report_tuongtac_label::before {
+    content: "Nhân Cách";
+}
+
+#report_thaido_label::before {
+    content: "Thái độ";
+}
+
+#report_ngaysinh_label::before {
+    content: "Ngày sinh";
+}
+
+#report_logic_label::before {
+    content: "Tư duy\00a0Logic";
+}
+
+#report_camxuc_label::before {
+    content: "Tư duy Cảm\00a0xúc";
+}
+
+#report_trucgiac_label::before {
+    content: "Tư duy Trực\00a0giác";
+}
+
+#report_trainghiem_label::before {
+    content: "Tư duy Trải\00a0nghiệm";
+}
+
+#report_bosung_label::before {
+    content: "Bổ sung";
+}
+
+#report_nttt_label::before {
+    content: "Kết nối Linh\00a0hồn";
+}
+
+#report_ddsm_label::before {
+    content: "Kết nối Vận\00a0mệnh";
+}
+
+#report_canbang_label::before {
+    content: "Cân bằng";
+}
+
+#report_truongthanh_label::before {
+    content: "Trưởng thành";
+}
+
+#report_namsinh_label::before {
+    content: "Năm Cá\00a0nhân";
+}
+
+#report_thangcanhan_label::before {
+    content: "Tháng Cá\00a0nhân";
+}
+
+#report_dinhcao_label::before {
+    content: "Đỉnh cao";
+}
+
+#report_thachthuc_label::before {
+    content: "Thách\00a0thức";
+}
+
+
+/* GIAI THICH CHI SO */
+#report_duongdoi_intro::before {
+    color: #be3455;
+    content: "Đường đời là chỉ số quan trọng nhất trong Thần số học Pythagoras. Nó thể hiện tính cách, năng lực cốt lõi, những mặt tốt và những mặt còn hạn chế của một con người. Nắm vững Chỉ số Đường đời là điều cần thiết để thấu hiểu bản thân, làm chủ cuộc đời chính mình.";
+}
+
+#report_sumenh_intro::before {
+    color: #be3455;
+    content: "Chỉ số Sứ mệnh thể hiện thiên hướng năng lực bẩm sinh của một người. Hiểu rõ Sứ mệnh là điều quan trọng nhất để định hướng sự nghiệp của bản thân, theo đuổi đam mê và tạo ra giá trị cho xã hội.";
+}
+
+#report_noitam_intro::before {
+    color: #be3455;
+    content: "Chỉ số Nội tâm, hay còn gọi là Chỉ số Linh hồn, đại diện cho những khát khao tiềm ẩn bên trong bạn. Hiểu được số Linh hồn sẽ giúp bạn lý giải được nguyên nhân sâu xa của các hành động, các lựa chọn của bạn trong cuộc sống. ";
+}
+
+#report_noicam_intro::before {
+    color: #be3455;
+    content: "Chỉ số Nội cảm, hay còn gọi là Chỉ số Đam mê Đại biểu cho những đam mê của bạn, cho ngọn nguồn của mọi nỗ lực. Được sống với đam mê là điều cơ bản nhất để bạn hạnh phúc và thành công. ";
+}
+
+#report_tuongtac_intro::before {
+    color: #be3455;
+    content: "Chỉ số Tương Tác, hay còn gọi là Chỉ số Nhân cách, thể hiện ấn tượng, cảm nhận đầu tiên của những người xung quanh về bạn. Nắm rõ Tương tác sẽ giúp bạn tạo được ấn tượng tốt nhất lúc sơ giao. ";
+}
+
+#report_thaido_intro::before {
+    color: #be3455;
+    content: "Thái độ quyết định 70% năng lực con người. Hiểu về Số Thái độ sẽ giúp bạn điều chỉnh hành vi, ứng xử phù hợp trong các mối quan hệ. Thái độ chính là chìa khóa thành công của bạn. ";
+}
+
+#report_ngaysinh_intro::before {
+    color: #be3455;
+    content: "Chỉ số Ngày sinh thể hiện thiên khiếu và năng lực vốn có của bạn. Nắm rõ chỉ số này sẽ giúp bạn có định hướng phát triển bản thân và phát huy thiên hướng của mình. ";
+}
+
+#report_logic_intro::before {
+    color: #be3455;
+    content: "Tư duy Logic là khả năng giải quyết vấn đề, bản chất của một người để đưa ra kết luận, mức độ kiên nhẫn mà người đó có được về mặt tinh thần. Khả năng nhìn vào bức tranh lớn hơn. ";
+}
+
+#report_camxuc_intro::before {
+    color: #be3455;
+    content: "Tư duy Cảm xúc thể hiện khả năng của một người để phản ứng với bất kỳ tình huống nhất định nào cũng như chất lượng và số lượng phản ứng của bạn. Đây là về việc kiểm soát cảm giác của bạn. ";
+}
+
+#report_trucgiac_intro::before {
+    color: #be3455;
+    content: "Tư duy trực giác là trực giác và tâm linh của bạn, thể hiện sự nhạy cảm, lòng trắc ẩn và sự thấu hiểu của bạn đối với tình huống sảy ra hoặc với người khác. ";
+}
+
+#report_trainghiem_intro::before {
+    color: #be3455;
+    content: "Tư duy Trải nghiệm là khả năng sử dụng tối đa các nguồn lực sẵn có để thể hiện giá trị của một cá nhân, mức độ thực tế của một cá nhân và sức chịu đựng của cá nhân đó. ";
+}
+
+#report_bosung_intro::before {
+    color: #be3455;
+    content: "Chỉ số Bổ sung là những đặc điểm, năng lực mà bẩm sinh bạn không có được. Là phần thiếu trong bức tranh chân dung cá nhân mà bạn cần bổ sung, bù khuyết và hoàn thiện trong hành trình khám phá phát triển bản thân của mình. ";
+}
+
+#report_nttt_intro::before {
+    color: #be3455;
+    content: "Chỉ số Kết nối Linh hồn chỉ cho bạn hướng để tạo sự hòa hợp giữa những khát khao bên trong và những biểu hiện bên ngoài, qua đó, để cuộc sống bạn thành một chỉnh thể hài hòa. ";
+}
+
+#report_ddsm_intro::before {
+    color: #be3455;
+    content: "Chỉ số Kết nối Vận mệnh định ra phương hướng để bạn có thể sống đúng với Sứ mệnh (những điều bạn nên là) dựa trên Đường đời (những gì bạn có) ";
+}
+
+#report_canbang_intro::before {
+    color: #be3455;
+    content: "Chỉ số Cân bằng chỉ ra điểm thăng bằng bạn cần đạt đến để cân đối với đặc trưng của bạn, nhằm duy trì mạch cảm xúc và năng lượng tích cực giữa cuộc đời. ";
+}
+
+#report_truongthanh_intro::before {
+    color: #be3455;
+    content: "Chỉ số Trưởng thành gợi ý cách để bạn xây dựng, hoàn thiện bản thân để tạo nên những chuyển biến quan trọng trong cuộc đời. ";
+}
+
+#report_namsinh_intro::before {
+    color: #be3455;
+    content: "Năm Cá nhân đưa ra những dự đoán cho năm hiện tại và các năm kế tiếp. Hiểu và hành động theo trường năng lượng sẽ giúp bạn có nhiều thuận lợi trong các năm sắp tới. ";
+}
+
+#report_thangcanhan_intro::before {
+    color: #be3455;
+    content: "Tháng Cá nhân đưa ra những dự đoán cho tháng hiện tại và các tháng kế tiếp. Hiểu và hành động theo trường năng lượng sẽ giúp bạn có nhiều thuận lợi trong các tháng sắp tới. ";
+}
+
+#report_dinhcao_intro::before {
+    color: #be3455;
+    content: "Chỉ số Đỉnh cao chỉ ra cho bạn đâu là hành trình mà bạn đang và sẽ đi qua, tương lai sắp tới sẽ diễn ra những gì, hành trình của mỗi người được chia thành 4 chặng, thể hiện qua 27 năm, gồm 3 chu kỳ thay đổi. Bạn sẽ biết mình đang ở đâu và những cơ hội thách thức mà bạn sẽ trải qua trong tương lai, từ đó bạn biết mình cần trang bị những gì để nương theo và vượt qua một cách dễ dàng. ";
+}
+
+#report_thachthuc_intro::before {
+    color: #be3455;
+    content: "Chỉ số Thách thức Chỉ ra cho bạn biết mình đang ở đâu và những thách thức mà bạn sẽ trải qua trong tương lai, từ đó bạn biết mình cần trang bị những gì để nương theo và vượt qua một cách dễ dàng.";
+}

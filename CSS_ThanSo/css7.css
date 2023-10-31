@@ -1,0 +1,339 @@
+.report-name {
+    width: auto !important;
+    max-width: 80%;
+    min-width: 66%;
+}
+
+.report-name {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.report-name, .report-name .ladi-headline {
+    font-size: 22px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    font-family: "PoppinsVN-700.ttf" !important;
+    color: #be3455 !important;
+}
+
+@media (max-width: 768px) {
+    .report-name, .report-name .ladi-headline {
+        font-size: 19px !important;
+    }
+}
+
+.report-details {
+    padding: 15px;
+    border: solid 1px #f2d6dd;
+    background: rgba(150, 148, 152, 0.35);
+    border-radius: 10px;
+}
+
+.report-container {
+    width: 100%;
+    height: 100%;
+}
+
+.report-container-vflex {
+    display: flex;
+    flex-flow: column;
+}
+
+.report-container-hflex {
+    display: flex;
+    flex-flow: row;
+}
+
+.report-align-center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.index-list-frame {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.index-list {
+    width: 47.5%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+    border-bottom: 1px solid rgba(70, 68, 75, 1.0);
+    margin-top: 10px;
+    padding-bottom: 3px;
+    display: flex;
+    flex-flow: row;
+}
+
+@media (max-width: 350px) {
+    .index-list {
+        width: 100%
+    }
+}
+
+.index-list .index-label {
+    float: left;
+}
+
+.index-list .index-value {
+    float: right;
+}
+
+.report-details-instruction {
+    padding: 25px 0px 5px 0px;
+    font-size: 12px;
+    font-family: San-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.report-details-report {
+    padding: 10px;
+    border: solid 1px #fff;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1 1 auto;
+}
+
+.report-details-content, .report-details-content p {
+    font-size: 13px;
+    color: rgb(50, 50, 50);
+    margin: 15px 0px 0px 0px;
+    text-align: justify;
+    line-height: 1.3em;
+    letter-spacing: 0.5px;
+}
+
+.report-report {
+    margin-top: 25px;
+}
+
+.report-report-top {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-size: cover !important;
+    background-position: center center !important;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.report-report-cover {
+    width: 100%;
+    /*height: 483px;*/
+    background-size: cover !important;
+    background-position: center center !important;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding: 10px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+.report-report-index {
+    float: left;
+    font-size: 20px;
+    text-shadow: 1px 2px 3px #333;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    max-width: 66%;
+    font-family: "PoppinsVN-700.ttf" !important;
+}
+
+/*.report-report-index::before, .index-list .index-label::before {
+content: "Chỉ số ";
+}
+@media (max-width: 420px) {
+.index-list .index-label::before {
+content: "CS ";
+} */
+
+
+.report-report-value {
+    float: right;
+    font-size: 42px !important;
+    text-shadow: 1px 2px 3px #333;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+
+.index-label {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.25em;
+}
+
+.index-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: #be3455;
+    align-self: center;
+}
+
+@media (max-width: 420px) {
+    .index-value {
+        font-size: 16px;
+    }
+}
+
+
+.report-matrix-bg {
+    background: url(https://w.ladicdn.com/5ebf76b51e398e6f1670261b/maxtrix-bg-01-20221120123604-wrewg.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.report-matrix {
+    width: 33%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+}
+
+.report-matrix-1 {
+    top: 100%;
+    left: 0%;
+    transform: translate(0, -100%);
+}
+
+.report-matrix-2 {
+    top: 50%;
+    left: 0%;
+    transform: translate(0, -50%);
+}
+
+.report-matrix-3 {
+    top: 0%;
+    left: 0%;
+}
+
+.report-matrix-4 {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.report-matrix-5 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.report-matrix-6 {
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.report-matrix-7 {
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+}
+
+.report-matrix-8 {
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+}
+
+.report-matrix-9 {
+    top: 0%;
+    left: 100%;
+    transform: translate(-100%, 0);
+}
+
+.report-process {
+    display: flex;
+    height: auto;
+    width: 530px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 420px) {
+    .report-process {
+        width: 380px;
+    }
+}
+
+.report-process-range {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+}
+
+.report-process-mid {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-height: 133px;
+    background: url("https://w.ladicdn.com/5ebf76b51e398e6f1670261b/steps-h-20220628051146.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 420px) {
+    .report-process-mid {
+        min-height: 95px;
+    }
+}
+
+.report-process-top .index-value::before {
+    content: "Đỉnh cao \A";
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.report-process-mid .index-value::after {
+    content: "\A TUỔI";
+    font-size: 11px;
+    text-transform: uppercase;
+    display: inherit;
+    color: #333;
+}
+
+.report-process-bottom .index-value::before {
+    content: "Thách thức \A";
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.report-process-top .index-value, .report-process-bottom .index-value {
+    position: relative;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+
+audio {
+    width: 78%;
+    height: 28px !important;
+    flex: 0 0 auto;
+}

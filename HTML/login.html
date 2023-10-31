@@ -1,0 +1,127 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <!--Made with love by Mutiullah Samim -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+
+    <!--Bootsrap 4 CDN-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+          crossorigin="anonymous">
+
+
+    <!--    <link rel="stylesheet" href="../css/bootstrap.min.css">-->
+    <!--    <link rel="stylesheet" href="../css/slick.css">-->
+    <link rel="stylesheet" href="../css/templatemo-style.css">
+
+
+</head>
+<body>
+
+<video autoplay muted loop>
+    <source src="../video/gfp-astro-timelapse.mp4" type="video/mp4">
+</video>
+
+
+<!--<div class="page-container">-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="cd-slider-nav">
+                <nav class="navbar navbar-expand-lg" id="tm-nav">
+                    <h3><a class="tm-link-white" href="../index.html">nguyenthithuydung.com.vn</a></h3>
+
+                    <div class="collapse navbar-collapse" id="navbar-supported-content">
+
+                        <ul class="navbar-nav mb-2 mb-lg-0 fixed">
+
+                            <!--                            <li class="nav-item">-->
+                            <!--                                <a class="nav-link" href="../index.html" data-no="1">Home</a>-->
+                            <!--                            </li>-->
+
+                            <!--                            <li class="nav-item">-->
+                            <!--                                <a class="nav-link" href="#" data-no="2">Ecosystem</a>-->
+                            <!--                            </li>-->
+
+                            <!--                            <li class="nav-item">-->
+                            <!--                                <a class="nav-link" href="#" data-no="3">About Us</a>-->
+                            <!--                            </li>-->
+
+
+                            <!--                            <li class="nav-item">-->
+                            <!--                                <a class="nav-link" href="#" data-no="4">Contact</a>-->
+                            <!--                            </li>-->
+
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="">
+    <div class="d-flex justify-content-center h-100 ">
+        <div class="card-body col-4 align-content-center">
+            <h3 class="tm-link-white" align="center">SIGN IN</h3>
+                <div class="input-group form-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    </div>
+                    <input type="text" class="form-control" id="username" placeholder="username">
+                </div>
+                <div class="input-group form-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                    </div>
+                    <input type="password" class="form-control" id="password" placeholder="password">
+                </div>
+                <div class="row align-items-center remember">
+                    <input type="checkbox">Remember Me
+                </div>
+                <div class="form-group" align="right">
+                    <button type="submit" class="btn btn-primary tm-btn-pad-2" onclick="login()">Submit</button>
+                </div>
+
+            <div class="card-footer">
+                <div class="d-flex justify-content-center links">
+                    Don't have an account ? <a href="#"> Sign Up</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+    function login() {
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+        if (username === "admin" && password === "12345") {
+            alert("login success!")
+            location.href = "../index.html"
+        } else {
+            alert("wrong the password!")
+            return
+        }
+    }
+</script>
+</body>
+
+<!--<script src="../js/noCopy.js"></script>-->
+
+
+</html>

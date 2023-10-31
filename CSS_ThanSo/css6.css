@@ -1,0 +1,110 @@
+#l-duongdoi {
+    order: 1;
+    display: flex !important
+}
+
+
+#l-sumenh {
+    order: 2;
+    display: flex !important
+}
+
+#l-noitam {
+    order: 3;
+    display: flex !important
+}
+
+#l-noicam {
+    order: 4;
+    display: flex !important
+}
+
+#l-tuongtac {
+    order: 5;
+    display: flex !important
+}
+
+#l-thaido {
+    order: 6;
+    display: flex !important
+}
+
+#l-ngaysinh {
+    order: 7;
+    display: flex !important
+}
+
+#l-logic {
+    order: 8;
+    display: flex !important
+}
+
+#l-camxuc {
+    order: 9;
+    display: flex !important
+}
+
+#l-trucgiac {
+    order: 10;
+    display: flex !important
+}
+
+#l-trainghiem {
+    order: 11;
+    display: flex !important
+}
+
+#l-bosung {
+    order: 12;
+    display: flex !important
+}
+
+#l-nttt {
+    order: 13;
+    display: flex !important
+}
+
+#l-ddsm {
+    order: 14;
+    display: flex !important
+}
+
+#l-canbang {
+    order: 15;
+    display: flex !important
+}
+
+#l-truongthanh {
+    order: 16;
+    display: flex !important
+}
+
+#l-thangcanhan {
+    order: 17;
+    display: flex !important
+}
+
+#l-namcanhan {
+    order: 18;
+    display: flex !important
+}
+
+#l-changduongdoi {
+    order: 19;
+    display: flex !important
+}
+
+#l-thachthuc {
+    order: 20;
+    display: flex !important
+}
+
+#l-sucManhTT{
+    order: 21;
+    display: flex !important
+}
+
+#l-soTuDuyLyTri{
+    order: 22;
+    display: flex !important
+}

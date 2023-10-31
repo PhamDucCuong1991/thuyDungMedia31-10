@@ -1,0 +1,175 @@
+
+div, p {
+    line-height: 1.15em;
+}
+
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}
+
+/* minimum height to fit one screen */
+#INTRO {
+    min-height: calc(100vh - 50px);
+}
+
+
+/* screen center class */
+.e-center {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    position: absolute !important;
+}
+
+.v-center {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    position: absolute !important;
+}
+
+.h-center {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    position: absolute !important;
+}
+
+/* center image for all images */
+.ladi-image-background {
+    width: 100% !important;
+    height: 100% !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    top: 0px !important;
+    left: 0px !important;
+}
+
+/* invisible format boxes */
+.formatbox {
+    display: none;
+}
+
+/* section dividers */
+.divider {
+    width: auto !important;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.divider .ladi-headline {
+    width: auto !important;
+    padding: 0px 15px !important;
+    text-align: center !important;
+    white-space: nowrap;
+    font-size: 15px !important;
+    line-height: 1em !important;
+    text-transform: uppercase;
+    letter-spacing: 1px !important;
+    color: #300d15 !important;
+}
+
+.divider::before, .divider::after {
+    content: "";
+    display: inline-block !important;
+    width: 150px !important;
+    height: 2px !important;
+    background: #be3455;
+    margin: 5px 10px !important;
+}
+
+
+.dark-section .divider .ladi-headline {
+    color: #ffffff !important;
+}
+
+.dark-section .divider::before, .dark-section .divider::after {
+    background: #f2d6dd;
+}
+
+
+@media screen and (max-width: 421px) {
+
+
+    .divider::before, .divider::after {
+        width: 75px !important;
+        height: 1px !important;
+    }
+
+    .divider .ladi-headline {
+        font-size: 12px !important;
+    }
+}
+
+/* text with dark shadow */
+.text-shadowed {
+    text-shadow: 1px 2px 3px #000000;
+}
+
+/* form placeholders */
+::placeholder {
+    padding-left: 10px;
+}
+
+/* NAVIGATION */
+.nav-group {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    position: relative !important;
+}
+
+.nav-logo {
+    position: absolute !important;
+    left: 0px !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+.nav-link:hover .ladi-button-background {
+    border-bottom: 1px solid #fff;
+}
+
+/*xuat file pdf*/
+.book {
+    padding: 50px;
+}
+
+.book .author {
+    padding: 15px 0px;
+    font-size: 18px;
+    color: #fff;
+    font-family: "PoppinsVN-700.ttf";
+}
+
+.book .story {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.book .title {
+    font-size: 32px;
+    color: #fff;
+    font-family: "PoppinsVN-700.ttf";
+    line-height: 1.15em;
+    padding-top: 10px
+}
+
+.book .spacer {
+    padding: 75px 0px 0px 0px;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.regline::after {
+    content: " Mua bản full 20 chỉ số theo hướng dẫn bên dưới để xem nội dung luận giải";
+}
+
