@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astro Motion by TemplateMo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <title>Thùy Dung Media</title>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css" type="text/css"/>
     <link rel="stylesheet" href="css/templatemo-style.css">
     <link rel="stylesheet" href="css/hotLine.css">
-    <script src="js/jquery-3.5.1.min.js"></script>
 
+    <script src="js/jquery-3.5.1.min.js"></script>
 
 </head>
 <body>
@@ -67,11 +67,11 @@
     <div class="container-fluid tm-content-container">
 
         <ul class="cd-hero-slider mb-0 py-5">
-            <!--            <marquee>-->
-            <!--                <h2 align="center" style="color: #99FF66">-->
-            <!--                    Công ty cổ phần truyền thông media Nguyễn Thị Thùy Dung &nbsp-->
-            <!--                </h2>-->
-            <!--            </marquee>-->
+                        <marquee>
+                            <h2 align="center" style="color: #99FF66">
+                                Công ty cổ phần truyền thông Thùy Dung media &nbsp
+                            </h2>
+                        </marquee>
             <li class="px-3" data-page-no="1">
                 <div class="page-width-1 page-left">
                     <div class="d-flex position-relative tm-border-top tm-border-bottom intro-container">
@@ -106,9 +106,9 @@
                         <div class="circle intro-circle-4"></div>
                     </div>
                     <div class="text-center">
-                        <a data-page-no="2" class="btn btn-primary tm-intro-btn tm-page-link">
+                        <button data-page-no="2" class="btn btn-primary tm-intro-btn tm-page-link">
                             Tìm hiểu ngay hệ sinh thái
-                        </a>
+                        </button>
                     </div>
                 </div>
             </li>
@@ -303,14 +303,14 @@
                             <div class="card-body col-8">
                                 <h3 class="tm-link-white" align="center">SIGN IN</h3>
 
-                                <form class="contact-form">
+
                                     <div class="input-group tm-mb-30">
-                                        <input name="name" type="text"
+                                        <input name="name" type="text" id="username"
                                                class="form-control rounded-0 border-top-0 border-end-0 border-start-0"
                                                placeholder="username">
                                     </div>
                                     <div class="input-group tm-mb-30">
-                                        <input name="phoneNumber" type="text"
+                                        <input name="phoneNumber" type="text" id="password"
                                                class="form-control rounded-0 border-top-0 border-end-0 border-start-0"
                                                placeholder="password">
                                     </div>
@@ -318,7 +318,7 @@
                                     <div class="form-group" align="right">
                                         <button type="submit" class="btn btn-primary tm-btn-pad-2" onclick="login()">Submit</button>
                                     </div>
-                                </form>
+
 
                                 <div class="row align-items-center remember">
                                     <input type="checkbox">Remember Me
@@ -375,27 +375,15 @@
         </a>
     </div>
 </div>
-
-
-<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/main.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/ecosystem.js"></script>
 <script src="js/templatemo-script.js"></script>
 <!--  <script src="js/noCopy.js"></script>-->
 </body>
 
-
 <script>
-    function login() {
-        let username = document.getElementById("username").value;
-        let password = document.getElementById("password").value;
-        if (username === "admin" && password === "12345") {
-            alert("login success!")
-            location.href = "../index.html"
-        } else {
-            alert("wrong the password!")
-        }
-    }
 
 </script>
+
 </html>
